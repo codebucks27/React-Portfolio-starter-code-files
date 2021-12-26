@@ -1,59 +1,44 @@
 export const Work = [
     {
         id:1,
-        name:"Agency Landing Page",
-        description:"It is build on top of the React JS, with styledComponents and GSAP for smooth scrolling animations.",
-        tags:["react","gsap","styledComponents"],
-        
-        demo:"https://agency-website-eta.vercel.app/",
-        github:"https://github.com/codebucks27/Agency-website"
+        name:"LIBRARY MANAGEMENT SYSTEM",
+        description:"Management systems mostly use software across all schools and colleges to keep record of data. One such System is Library Management System, which is used to keep record of books present in a library.",
+        tags:["SPRING MVC", "HIBERNATE", "MYSQL"]
     },
     {
         id:2,
-        name:"Job listing website",
-        description:"A Job listing website build in ReactJS. With searching and filtering functionalities.",
-        tags:["react","sass"],
-        
-        demo:"http://react-job-listing-website.codebucks27.vercel.app/",
-        github:"https://github.com/codebucks27/react-job-listing-website"
+        name:"BREAKOUT BALL GAME",
+        description:"In Breakout, a layer of bricks lines the top third of the screen and the goal is to destroy them all. A ball moves straight around the screen, bouncing off the top and two sides of the screen. When a brick is hit, the ball bounces back and the brick is destroyed",
+        tags:["Java Swing","Java AWT","JPanel","JFrame"]
         
     },
     {
         id:3,
-        name:"Dev.to Clone",
-        description:"A clone of Dev.to build using ReactJS. With realtime fetching of articles from dev.to using API.",
-        tags:["react","api","sass"],
+        name:"NEWS APP",
+        description:"The purpose of the project is to develop an application which will display news articles and videos verified and approved at backend . User can browse news articles and videos through various categories.",
+        tags:["Java","SQLite","CUSTOM RECYCLER VIEWS IN ANDROID","API"]
         
-        demo:"http://devto-clone-codebucks27.vercel.app/",
-        github:"https://github.com/codebucks27/devto-clone"
     },
     {
         id:4,
-        name:"Sidebar Menu",
-        description:"A cool looking sidebar menu build using ReactJS and styledComponents.It has really smooth animations.",
-        tags:["react","styledComponents","react-router"],
+        name:"ONLINE E-VOTING SYSTEM",
+        description:"An easily accessible user interface allowing no-booth voting at public's convenience during the given time. Another important pro of the system is that it is very easily accessible for disabled voters.",
+        tags:["JSP","Bootstrap","Javascript","JDBC","MySQL","CRUD-OPERATIONS"]
         
-        demo:"https://react-sidebar.vercel.app/",
-        github:"https://github.com/codebucks27/react-sidebar"
+        
        
     },{
         id:5,
-        name:"Todo App(React + Redux)",
-        description:"A todo app build using Redux-toolkit and framer-motion for smooth animations.",
-        tags:["react","redux","framer-motion"],
-        
-        demo:"http://react-redux-todo-app-git-main-codebucks27.vercel.app/",
-        github:"https://github.com/codebucks27/React-Redux-Todo-App"
+        name:"SNAKE GAME",
+        description:"Developed a simple snake game that is popular on mobiles where you play vs the computer. The objective of the game is to make the other player crash. The snake game is simple game.In this game the snake is eating some foods and get its size larger in step by step and getting some score.",
+        tags:["C"]
         
     },
     {
         id:6,
-        name:"Responsive Navigation Menu",
-        description:"A reponsive navbar menu component in ReactJS with react-router functionalities. Built from scratch.",
-        tags:["react","react-router","css"],
-        
-        demo:"http://react-responsive-navbar-codebucks27.vercel.app/",
-        github:"https://github.com/codebucks27/React-responsive-navbar"
+        name:"QUIZ GAME",
+        description:"Developed a quiz is a form of game or mind sport in which players attempt to answer questions correctly. It is a game to test knowledge about a certain subject. In some countries, a quiz is also a brief assessment used in education and similar fields to measure growth in knowledge, abilities, and/or skills.",
+        tags:["HTML","CSS","Javascript"]
         
     },
     
