@@ -9,6 +9,12 @@ If you want to learn how to create it please follow below tutorial👇: <br />
 
 https://youtu.be/jcohAIaSy2M <br />
 
+----------------------------------------------------------------------------------------------
+### NOTE: 
+[react-particles-js](https://www.npmjs.com/package/react-particles-js) has been deprecated. You can use 
+[react-tsparticles](https://www.npmjs.com/package/react-tsparticles) instead.
+----------------------------------------------------------------------------------------------
+
 ### Images of The Portfolio Website:
 ![HOME](https://github.com/codebucks27/React-Portfolio-starter-code-files/blob/main/Portfolio%20Images/Home.png)
 ![Intro](https://github.com/codebucks27/React-Portfolio-starter-code-files/blob/main/Portfolio%20Images/Intro.png)
