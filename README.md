@@ -12,13 +12,13 @@ https://youtu.be/jcohAIaSy2M <br />
 ----------------------------------------------------------------------------------------------
 ### NOTE: 
 [react-particles-js](https://www.npmjs.com/package/react-particles-js) has been deprecated. You can use 
-[react-tsparticles](https://www.npmjs.com/package/react-tsparticles) instead.
-
-If you're using NodeJS 17+ versions then you have to edit below line in package.json file👇
-"start": "react-scripts start",
-Just add --openssl-legacy-provider like this👇
-"start": "react-scripts --openssl-legacy-provider start",
+[react-tsparticles](https://www.npmjs.com/package/react-tsparticles) instead.  <br />
 ----------------------------------------------------------------------------------------------
+If you're using NodeJS 17+ versions then you have to edit below line in package.json file👇 <br />
+"start": "react-scripts start", <br />
+Just add --openssl-legacy-provider like this👇 <br />
+"start": "react-scripts --openssl-legacy-provider start", <br />
+
 
 ### Images of The Portfolio Website:
 ![HOME](https://github.com/codebucks27/React-Portfolio-starter-code-files/blob/main/Portfolio%20Images/Home.png)
