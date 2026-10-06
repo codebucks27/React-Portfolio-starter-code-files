@@ -107,3 +107,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## From the creator
+
+SmartHeadshots is my separate hosted product for [AI-generated professional headshots](https://www.smartheadshots.ai/professional-headshots).
