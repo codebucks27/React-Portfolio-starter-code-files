@@ -9,15 +9,38 @@ If you want to learn how to create it please follow below tutorial👇: <br />
 
 https://youtu.be/jcohAIaSy2M <br />
 
-----------------------------------------------------------------------------------------------
-### NOTE: 
-[react-particles-js](https://www.npmjs.com/package/react-particles-js) has been deprecated. You can use 
-[react-tsparticles](https://www.npmjs.com/package/react-tsparticles) instead.  <br />
-----------------------------------------------------------------------------------------------
-If you're using NodeJS 17+ versions then you have to edit below line in package.json file👇 <br />
-"start": "react-scripts start", <br />
-Just add --openssl-legacy-provider like this👇 <br />
-"start": "react-scripts --openssl-legacy-provider start", <br />
+### Final source code
+
+The completed portfolio source is available in the
+[public final repository](https://github.com/codebucks27/react-portfolio-final).
+The [tutorial article](https://devdreaming.com/videos/build-stunning-portfolio-website-react-js-framer-motion#code-links)
+also links to that repository. Follow its own README to run the completed app.
+
+This repository contains the tutorial's starter files. Its initial screen displays
+`App File`; follow the video to build the portfolio shown in the screenshots.
+
+### Run the starter
+
+The starter uses Create React App (`react-scripts` 5), React 18, npm, and
+`package-lock.json`. It includes `react-tsparticles` 2 and `tsparticles` 2 for the
+original tutorial APIs. The public final repository has a different toolchain;
+use each repository's own setup instructions.
+
+From this directory, install the locked dependencies and start the app:
+
+```sh
+npm ci
+npm start
+```
+
+The production build was verified with Node.js **24.19.0** and npm **11.9.0**
+without `--openssl-legacy-provider`. No environment variables are required for
+the starter. `npm run build` writes the production files to `build/`.
+
+This historical starter retains Create React App's dependency graph and may
+print deprecation and outdated browser-data warnings during installation/build.
+Keep the resource credits below and check the applicable asset terms before
+publishing a portfolio.
 
 
 ### Images of The Portfolio Website:
@@ -57,6 +80,11 @@ You will also see any lint errors in the console.
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+The existing sample test in `src/App.test.js` expects CRA's `learn react` link,
+while the starter renders `App File`, so it currently fails. Update that sample
+assertion as you build your app. To run the tests once, use
+`npm test -- --watchAll=false`.
 
 ### `npm run build`
 
